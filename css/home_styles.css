@@ -16,6 +16,7 @@ body {
   background-size: cover;
 }
 
+/****************** Typewriting Welcome Text ************************/
 header {
   text-align: center;
   padding-top:5em;
@@ -32,6 +33,7 @@ h1 a {
 	text-decoration: none;
 }
 
+/****************** Nav/Page Buttons ************************/
 .bottom_buttons {
 	position: absolute;
 	bottom: 0;
@@ -62,3 +64,57 @@ nav ul li a {
 	text-align: center;
 	font-weight:bold;
 }
+
+/****************** START MIN-WIDTH 500PX MEDIA QUERY ************************/
+@media (min-width: 500px) {
+	.typetext_container {
+		width: 35%;
+	}
+
+	.navbutton {
+		padding: 4%;
+		width: 23%;
+	}
+}
+/********************* END MIN-WIDTH 500PX MEDIA QUERY ***********************/
+
+/****************** START MIN-WIDTH 700PX MEDIA QUERY ************************/
+@media (min-width: 700px) {
+	.typetext_container {
+		width: 30%;
+	}
+
+	.navbutton {
+		padding: 3%;
+		width: 21%;
+
+	}
+}
+/********************* End MIN-WIDTH 700PX MEDIA QUERY ***********************/
+
+/****************** START MIN-WIDTH 900PX MEDIA QUERY ************************/
+@media (min-width: 900px) {
+	.typetext_container {
+		width: 25%;
+	}
+
+	.navbutton {
+		padding: 2%;
+		width: 17%;
+
+	}
+}
+/********************* End MIN-WIDTH 900PX MEDIA QUERY ***********************/
+
+/****************** START MIN-WIDTH 1100PX MEDIA QUERY ************************/
+@media (min-width: 1100px) {
+	.typetext_container {
+		width: 20%;
+	}
+
+	.navbutton {
+		padding: 1.5%;
+		width: 14%;
+	}
+}
+/********************* End MIN-WIDTH 1100PX MEDIA QUERY ***********************/
