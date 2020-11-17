@@ -18,7 +18,7 @@ body {
 
 header {
   text-align: center;
-  padding-top:5.5em;
+  padding-top:5em;
 	display: flex;
 	justify-content: center;
 }
@@ -30,4 +30,35 @@ header {
 h1 a {
 	color:#3f3c48;
 	text-decoration: none;
+}
+
+.bottom_buttons {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-content: flex-end;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navbutton {
+	background: #3f3c48;
+	margin: 0 0 15px 15px;
+	padding: 4%;
+	width: 25%;
+	border-radius: 10px;
+	text-align: center;
+	font-weight:bold;
 }
