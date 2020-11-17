@@ -9,7 +9,6 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 }
 
 body {
-	display: flex;
 	background: url("../images/sunset.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,15 +16,14 @@ body {
   background-size: cover;
 }
 
-nav, img {
-	flex-direction: row;
-}
-nav {
-	margin-right: 125px;
+#logo {
+	width: 60%;
+	padding: 25px 0 5px 2%;
+	margin: auto 0;
 }
 
-nav ul {
-	margin-top: 400px;
+nav {
+	margin-right: 125px;
 }
 
 nav ul li {
@@ -40,13 +38,22 @@ nav ul li a {
 .navbutton {
 	background: #3f3c48;
 	margin: 0 0 15px 20px;
-	padding: 25%;
-	width: 100%;
+	padding: 10%;
+	width: 75%;
 	border-radius: 10px;
 	text-align: center;
 }
 
-img {
+main {
+	display: flex;
+}
+
+#main_content {
+	flex-direction: row;
+}
+
+
+.character_image {
 	height: 100vh;
 	margin: 0 -50px;
 }
