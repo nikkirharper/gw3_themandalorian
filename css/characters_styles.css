@@ -16,6 +16,13 @@ body {
   background-size: cover;
 }
 
+.container {
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+}
+
 #logo {
 	width: 75%;
 	padding: 25px 0 5px 2%;
@@ -52,8 +59,9 @@ nav ul li a {
 
 /****************** START MIN-WIDTH 500PX MEDIA QUERY ************************/
 @media (min-width: 500px) {
-	body {
+	.container {
 		display: flex;
+		
 	}
 
 	header, main {
