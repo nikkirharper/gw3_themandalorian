@@ -16,6 +16,12 @@ body {
   background-size: cover;
 }
 
+h1 {
+	font-family: sofachrome, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
 /****************** Typewriting Welcome Text ************************/
 header {
   text-align: center;
@@ -31,6 +37,7 @@ header {
 h1 a {
 	color:#3f3c48;
 	text-decoration: none;
+	text-align: center; 
 }
 
 /****************** Nav/Page Buttons ************************/
@@ -62,7 +69,8 @@ nav ul li a {
 	width: 25%;
 	border-radius: 10px;
 	text-align: center;
-	font-weight:bold;
+	font-family: sofachrome, sans-serif;
+	font-weight: 500;
 }
 
 /****************** START MIN-WIDTH 500PX MEDIA QUERY ************************/
