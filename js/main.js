@@ -55,3 +55,32 @@ var TxtType = function(el, toRotate, period) {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
     };
+
+
+//Changes the background color of button on mouseover
+var button1 = document.getElementById("button1");
+var button2 = document.getElementById("button2");
+
+button1.addEventListener("mouseover",
+  function() {
+    button1.style.backgroundColor = "#8b2145";
+  }, false
+);
+
+button1.addEventListener("mouseleave",
+  function() {
+    button1.style.backgroundColor = "#3f3c48";
+  }, false
+);
+
+button2.addEventListener("mouseover",
+  function() {
+    button2.style.backgroundColor = "#8b2145";
+  }, false
+);
+
+button2.addEventListener("mouseleave",
+  function() {
+    button2.style.backgroundColor = "#3f3c48";
+  }, false
+);
