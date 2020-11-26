@@ -172,7 +172,7 @@ figure.effect p {
 	left: 0;
 	padding: 2em;
 	width: 100%;
-	opacity: 0;
+	/* opacity: 0; */
 	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
 }
@@ -203,30 +203,10 @@ figure.effect:hover p {
   backface-visibility: hidden;
 }
 
-/****************** START MAX-WIDTH 499PX MEDIA QUERY ************************/
-/* @media (max-width: 499px) {
-	.container {
-		position: absolute;
-		display: flex;
-		flex-direction: column;
-		height: auto;
-		transform: none;
+/****************** START MIN-WIDTH 980PX MEDIA QUERY ************************/
+@media (min-width: 980px) {
+	figure.effect p {
+		opacity: 0;
 	}
-} */
-
-/****************** END MAX-WIDTH 499PX MEDIA QUERY ************************/
-
-/****************** START MIN-WIDTH 500PX MEDIA QUERY ************************/
-@media (min-width: 500px) {
-
-
-
-
-
-
-
-
-
-
 }
 /********************* END MIN-WIDTH 500PX MEDIA QUERY ***********************/
