@@ -63,7 +63,7 @@ var button2 = document.getElementById("button2");
 
 button1.addEventListener("mouseover",
   function() {
-    button1.style.backgroundColor = "#8b2145";
+    button1.style.backgroundColor = "#aeb9bd";
   }, false
 );
 
@@ -75,7 +75,7 @@ button1.addEventListener("mouseleave",
 
 button2.addEventListener("mouseover",
   function() {
-    button2.style.backgroundColor = "#8b2145";
+    button2.style.backgroundColor = "#aeb9bd";
   }, false
 );
 
