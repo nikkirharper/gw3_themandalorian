@@ -70,11 +70,26 @@ nav a {
 	margin: 0 0 15px 15px;
 	padding: 4%;
 	width: 35%;
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	text-align: center;
 	font-family: sofachrome, sans-serif;
 	font-weight: 500;
 	font-size: .6rem;
+}
+
+.hvr-round-corners {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: border-radius;
+  transition-property: border-radius;
+}
+.hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
+  border-radius: 1em;
 }
 
 /****************** START MIN-WIDTH 500PX MEDIA QUERY ************************/

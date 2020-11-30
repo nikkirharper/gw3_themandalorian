@@ -63,7 +63,6 @@ nav a {
 }
 
 .navbutton {
-  border-radius: 10px;
   background-color: #3f3c48;
   border: none;
   color: #ffffff;
@@ -73,8 +72,23 @@ nav a {
   width: 100%;
 }
 
-/* Icon Forward */
+/**** Round Corners Button Effect ****/
+.hvr-round-corners {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: border-radius;
+  transition-property: border-radius;
+}
+.hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
+  border-radius: 1em;
+}
 
+/**** Icon Forward Button Effect *****/
 .hvr-icon {
 	font-size: 1.2rem;
 }
@@ -107,7 +121,7 @@ nav a {
 	display: flex;
 }
 
-/****** Effect Common Style ***********/
+/****** Image Hover Effect Common Style ***********/
 #main_content figure {
 	position: relative;
 	float: left;
@@ -163,7 +177,7 @@ nav a {
 	font-size: 68.5%;
 }
 
-/***** Effect ********/
+/***** Image Hover Effect ********/
 figure.effect figcaption::before {
 	position: absolute;
 	top: 0;
@@ -200,7 +214,6 @@ figure.effect p {
 	left: 0;
 	padding: 2em;
 	width: 100%;
-	/* opacity: 0; */
 	-webkit-transform: translate3d(0,10px,0);
 	transform: translate3d(0,10px,0);
 }
