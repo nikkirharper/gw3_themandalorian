@@ -72,7 +72,7 @@ nav a {
   width: 100%;
 }
 
-/**** Round Corners Button Effect ****/
+/********* Round Corners Button Effect ***********/
 .hvr-round-corners {
   display: inline-block;
   vertical-align: middle;
@@ -88,7 +88,7 @@ nav a {
   border-radius: 1em;
 }
 
-/**** Icon Forward Button Effect *****/
+/*********** Icon Forward Button Effect *************/
 .hvr-icon {
 	font-size: 1.2rem;
 }
@@ -121,7 +121,7 @@ nav a {
 	display: flex;
 }
 
-/****** Image Hover Effect Common Style ***********/
+/************** Image Hover Effect Common Style *************/
 #main_content figure {
 	position: relative;
 	float: left;
@@ -177,7 +177,7 @@ nav a {
 	font-size: 68.5%;
 }
 
-/***** Image Hover Effect ********/
+/*********** Image Hover Effect ***************/
 figure.effect figcaption::before {
 	position: absolute;
 	top: 0;
@@ -231,11 +231,11 @@ figure.effect:hover p {
 	transform: translate3d(0,0,0);
 }
 
-.effect:hover .character_image {
+.effect:hover .image {
 	opacity: 0.3;
 }
 
-.character_image {
+.image {
 	height: 100vh;
 	width: auto;
 	margin: 0 -100px 0 0;
