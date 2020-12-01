@@ -127,6 +127,11 @@ nav a {
 
 /****************** START MIN-WIDTH 900PX MEDIA QUERY ************************/
 @media (min-width: 900px) {
+
+	header {
+		padding-top:5.5em;
+	}
+
 	.typetext_container {
 		width: 36%;
 	}
@@ -146,7 +151,7 @@ nav a {
 	}
 
 	.typetext_container {
-		width: 32%;
+		width: 30%;
 	}
 
 	.navbutton {
