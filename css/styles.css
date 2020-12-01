@@ -84,6 +84,7 @@ nav a {
   -webkit-transition-property: border-radius;
   transition-property: border-radius;
 }
+
 .hvr-round-corners:hover, .hvr-round-corners:focus, .hvr-round-corners:active {
   border-radius: 1em;
 }
@@ -250,4 +251,4 @@ figure.effect:hover p {
 		opacity: 0;
 	}
 }
-/********************* END MIN-WIDTH 500PX MEDIA QUERY ***********************/
+/********************* END MIN-WIDTH 980PX MEDIA QUERY ***********************/
